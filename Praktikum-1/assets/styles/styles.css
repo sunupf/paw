@@ -57,6 +57,7 @@ p {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    padding: var(--space-2) 0;
 }
 
 .navigation nav {
