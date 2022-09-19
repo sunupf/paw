@@ -1,0 +1,33 @@
+@import url('https://rsms.me/inter/inter.css');
+
+html {
+    font-family: 'Inter', sans-serif;
+}
+
+body {
+    /* Cara 1 */
+    /* display: grid;
+    grid-template-columns: repeat(2, 1fr); */
+
+    /* Cara 2 */
+    /* column-count: 2; */
+
+    /* Cara 3 */
+    display: flex;
+    font-size: 32px;
+}
+
+h1 {
+    /* font-size: 48px; */
+    /* font-size: 3em; */
+    font-size: 3rem;
+}
+
+div {
+    width: 592px;
+    padding: 40px;
+}
+
+img {
+    width: 100%;
+}

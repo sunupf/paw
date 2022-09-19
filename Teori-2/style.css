@@ -1,0 +1,28 @@
+@import url('https://rsms.me/inter/inter.css');
+
+html {
+    font-family: 'Inter', sans-serif;
+}
+
+body {
+    width: 592px;
+    margin: 0 auto;
+    padding: 40px
+}
+
+h1 {
+    font-size: 3rem;
+    margin: 0;
+    font-weight: 900;
+}
+
+img {
+    width: 100%;
+    margin: 40px 0;
+}
+
+p {
+    line-height: 150%;
+    font-size: 1.125rem;
+    margin: 0;
+}
