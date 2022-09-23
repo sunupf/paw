@@ -1,5 +1,4 @@
-function strikeOutText(event, element) {
-    console.log(event.type)
+function strikeOutText(element) {
     if (element.classList.contains('todo--done')) {
         element.classList.remove('todo--done')
     } else {
