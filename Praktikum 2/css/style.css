@@ -11,6 +11,44 @@ h1 {
 body {
     margin-left: auto;
     margin-right: auto;
-    width: 60%;
+    width: fit-content;
 }
 
+label {
+    position: relative;
+    display: flex;
+    align-items: center;
+    gap: 14px;
+}
+
+label::before {
+    content: '';
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 16px;
+    height: 16px;
+    border: 1px solid #A7A8A9;
+    border-radius: 4px;
+}
+
+label:hover::before {
+    box-shadow: 0px 0px 0px 1px rgba(78, 119, 226, 0.5);
+    border: 1px solid rgb(78, 119, 226);
+}
+
+input[type="checkbox"] {
+    display: none;
+}
+
+input[type="checkbox"]:checked ~ label::before {
+    content: url('../images/img-check.svg');
+    border: 1px solid #A7A8A9;
+    box-shadow: 0px 0px 0px 1px rgba(78, 119, 226, 0.5);
+    border: 1px solid rgb(78, 119, 226);
+}
+
+.todo--done {
+    color: #9C9C9C;
+    text-decoration: line-through;
+}

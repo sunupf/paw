@@ -7,17 +7,17 @@
     <body>
         <h1>Todo List</h1>
         <p>Your todo for today (21 September 2022)</p>
-        <p>
-            <input class="checkbox" id="create" type="checkbox" value="create"> 
-            <label for="create" onclick="strikeOutText(this)">
+        <div>
+            <input id="create" type="checkbox" value="create"> 
+            <label for="create" onclick="strikeOutText(event, this)">
                 Create Layout
             </label>
-        </p>
-        <p>
-            <input class="checkbox" id="manipulate" type="checkbox" value="manipulate"> 
-            <label for="manipulate">
+        </div>
+        <div>
+            <input id="manipulate" type="checkbox" value="manipulate"> 
+            <label for="manipulate" onclick="strikeOutText(event, this)">
                 Manipulate DOM using javascript
             </label>
-        </p>
+        </div>
     </body>
 </html>
