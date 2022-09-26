@@ -1,0 +1,17 @@
+html {
+    font-size: 48px;
+}
+
+button,
+input {
+    font-size: 1rem;
+}
+
+input {
+    width: 3rem;
+}
+
+form {
+    width: 640px;
+    margin: 100px auto;
+}

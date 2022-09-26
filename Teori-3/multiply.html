@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <form onsubmit="calculateMultiplyResult(event)">
+        <input type="number" id="number1" name="number1">
+        <span>x</span>
+        <input type="number" id="number2" name="number2">
+        <button type="submit">Result</button>
+        <div class="result"></div>
+    </form>
+    <script>
+        function calculateMultiplyResult(e) {
+            e.preventDefault()
+            const number1 = document.querySelector('#number1').value
+            const number2 = document.querySelector('#number2').value
+
+            document.querySelector('.result').innerHTML = parseInt(number1) * parseInt(number2)
+        }
+    </script>
+</body>
+</html>
