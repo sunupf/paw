@@ -1,0 +1,25 @@
+/* Modifier */
+
+.text--purple {
+    color: var(--purple);
+}
+
+.body--lock {
+    overflow: hidden;
+}
+
+/* Common Styles */
+* {
+    box-sizing: border-box;
+}
+html {
+    color: var(--dark-purple);
+}
+body {
+    margin: 0;
+}
+img {
+    width: 100%;
+    height: auto;
+    display: inline-block;
+}

@@ -1,0 +1,46 @@
+/* import font file : import has to be first line */
+@import url('https://rsms.me/inter/inter.css');
+
+/* Typography Style */
+html {
+    font-family: 'Inter', sans-serif;
+}
+
+h1, h2, h3{ 
+    margin: var(--text-3l) 0;
+}
+
+h1, h2{
+    font-weight: 900;
+}
+
+h3 {
+    font-weight: 800;
+}
+
+h1 {
+    font-size: var(--text-3l);
+}
+
+h2 {
+    font-size: var(--text-2l);
+}
+
+h3 {
+    font-size: var(--text-xl);
+}
+
+
+@media screen and (min-width: 960px) {
+    h1 {
+        font-size: var(--text-6l);
+    }
+    
+    h2 {
+        font-size: var(--text-5l);
+    }
+    
+    h3 {
+        font-size: var(--text-4l);
+    }
+}

@@ -1,0 +1,7 @@
+.cta--flat {
+    font-weight: 500;
+    text-decoration: none;
+    color: var(--purple);
+    display: block;
+    text-align: center;
+}

@@ -1,0 +1,8 @@
+.paragraph {
+    color: red;
+    font-size: 3rem;
+}
+
+body {
+    background-image: url('../images/lake.png');
+}

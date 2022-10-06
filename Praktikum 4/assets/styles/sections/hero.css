@@ -1,0 +1,27 @@
+/* Hero */
+.hero {
+    padding-bottom: var(--space-10);
+}
+.hero .button {
+    margin-top: var(--space-3);
+}
+
+@media screen and (min-width: 720px) {
+    .hero {
+        padding-top: var(--space-5);
+    }
+    .hero img {
+        width: 50%;
+    }
+
+    .hero .container {
+        flex-direction: row-reverse;
+    }
+}
+
+
+@media screen and (min-width: 960px) {
+    .hero {
+        padding-top: var(--space-10);
+    }
+}

@@ -1,0 +1,25 @@
+nav .button,
+.button {
+    background-color: var(--purple);
+    color: var(--white);
+    padding: var(--space-1) var(--space-6);
+    font-weight: 700;
+    border-radius: var(--round-sm);
+    display: inline-block;
+    text-decoration: none;
+    width: 100%;
+    text-align: center;
+}
+
+.button--big {
+    font-size: var(--text-xl);
+    padding-top: var(--space-2);
+    padding-bottom: var(--space-2);
+}
+
+@media screen and (min-width: 720px) {
+    .button {
+        width: auto;
+    }
+
+}

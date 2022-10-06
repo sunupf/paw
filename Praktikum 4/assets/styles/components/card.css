@@ -1,0 +1,11 @@
+.card p {
+    -webkit-line-clamp: 3;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+}
+.card .button{
+    margin-top: var(--space-2);
+    width: 100%;
+}

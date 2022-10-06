@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sederhana</title>
+    <link rel="stylesheet" href="assets/styles/styles.css">
+    <script src="assets/js/navigation.js" async defer></script>
+</head>
+<body>
+    <header>
+        <div class="container container--flex">
+            <img class="brand" src="assets/images/logo-icon-normal.svg" alt="Logo Sederhana">
+            <div class="navigation">
+                <img src="assets/images/icon-menu.svg" data-toggle="open" alt="Open menu" onclick="toggleMenu(this)">
+                <img src="assets/images/icon-close.svg" data-toggle="close" alt="Open menu" onclick="toggleMenu(this)">
+                <nav>
+                    <a href="#beranda">Beranda</a>
+                    <a href="#beranda" class="button">Lihat Kelas</a>
+                </nav>
+            </div>
+        </div>
+    </header>
+    <main>
+        <section class="section hero">
+            <div class="container container--flex ">
+                <img srcset="assets/images/img-hero.png 1x, assets/images/img-hero@2x.png 2x," alt="Ilustrasi membuat web">
+                <div class="section__description">
+                    <h1>Membuat Web itu <span class="text--purple">Mudah!</span></h1>
+                    <p>Membuat web itu tidak sesulit yang di bayangkan. Indonesia, Amerika, Eropa, mau dimanapun teknik dan alat membuat web itu sama. Dan itu modal dasar dan alasan utama bahwa setiap orang bisa membuat web dengan kualitas dunia.</p>
+                    <a href="#beranda" class="button button--big">Lihat Kelas</a>
+                </div>
+            </div>
+        </section>
+        <section class="section section__courses">
+            <div class="container">
+                <div class="section__description">
+                    <h2>Pilih Kelas</h2>
+                    <p>Belajar dimana saja, kapan saja. Atur kecepatan belajar mu sendiri dan raih sertifikat kelulusanmu.</p>
+                </div>
+                <div class="courses">
+                    <div class="card">
+                        <img srcset="assets/images/img-html.png 1x, assets/images/img-html@2x.png 2x" alt="Ikut kelas HTML Dasar">
+                        <h3>HTML Dasar</h3>
+                        <p>Belajar dasar-dasar HTML dan berbagai macam tag yang dapat digunakan. Selesaikan kelas ini dan tadaaa!. Kau bisa membuat web-mu sendiri</p>
+                        <a href="#html" class="button">Mulai Belajar -></a>
+                    </div>
+                    <div class="card">
+                        <img srcset="assets/images/img-css.png 1x, assets/images/img-css@2x.png 2x" alt="Ikut kelas Styling dengan CSS">
+                        <h3>Styling dengan CSS</h3>
+                        <p>HTML saja tidak cukup. Web-mu perlu tampilan unik agar dapat menarik pengunjung atau bahkan menarik talent hunter. Dengan CSS semua itu menjadi mudah.</p>
+                        <a href="#html" class="button">Mulai Belajar -></a>
+                    </div>
+                    <div class="card">
+                        <img srcset="assets/images/img-js.png 1x, assets/images/img-js@2x.png 2x" alt="Ikut kelas Javascript 101">
+                        <h3>Javascript 101</h3>
+                        <p>Dengan javascript kamu dapat melakukan berbagai hal yang tidak bisa dilakukan dengan HTML maupun CSS. Mulai dari manipulasi halaman hingga animasi suatu elemen. </p>
+                        <a href="#html" class="button">Mulai Belajar -></a>
+                    </div>
+                </div>
+                <a href="#" class="cta--flat">Lihat semua kelas -></a>
+            </div>
+        </section>
+    </main>
+</body>
+</html>

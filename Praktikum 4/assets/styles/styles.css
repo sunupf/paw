@@ -1,0 +1,12 @@
+@import "themes/variables.css";
+@import "themes/typography.css";
+@import "themes/commons.css";
+
+@import "components/section.css";
+@import "components/button.css";
+@import "components/card.css";
+@import "components/cta.css";
+
+@import "sections/header.css";
+@import "sections/hero.css";
+@import "sections/courses.css";
