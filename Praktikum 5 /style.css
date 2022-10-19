@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap');
+
+body {
+    font-family: 'Poppins', sans-serif;
+    color: #667085
+}
+
+h1 {
+    color: #333F51;
+}
+
+.results {
+    max-width: 560px;
+}
+
+.job {
+    margin-bottom: 32px;
+}
+
+.job__title {
+    color: #0F6BF4;
+    display: block;
+    font-size: 18px;
+    text-decoration: none;
+}
+
+.job p {
+    -webkit-box-orient: vertical;
+    text-overflow: ellipsis;
+    -webkit-line-clamp: 3;
+    display: -webkit-box;
+    overflow: hidden;
+}
+
+.job__title:hover {
+    text-decoration: underline;
+}
+
+.job__meta {
+    display: flex;
+    gap: 40px;
+}
+
+.job__info {
+    display: flex;
+}
+
+.job__info img {
+    margin-right: 8px;
+}
