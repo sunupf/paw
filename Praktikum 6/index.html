@@ -9,7 +9,7 @@
 </head>
 <body>
     <div class="container">
-        <div class="chat">
+        <div class="chat chat--hidden">
             <div class="chat__header">
                 <img srcset="images/avatar.png 1x, images/avatar@2x.png 2x" alt="Sunu's Avatar">
                 <p>Sunu Pinasthika Fajar</p>
@@ -31,10 +31,11 @@
                 </a>
             </div>
         </div>
-        <a href="#open-widget" class="button">
+        <a href="#open-widget" class="button" onclick="toggleChat()">
             <img src="images/icon-chat.svg" alt="icon chat">
             Talk to Us
         </a>
     </div>
+    <script src="script.js"></script>
 </body>
 </html>

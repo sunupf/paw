@@ -30,6 +30,39 @@
     overflow: hidden;
 }
 
+.chat--show {
+    display: block;
+    animation: 0.3s zoomIn ease-in-out both;
+    transform-origin: right bottom;
+}
+
+.chat--hidden {
+    animation: 0.3s zoomOut ease-in-out both;
+    transform-origin: right bottom;
+}
+
+@keyframes zoomIn {
+    0% {
+        transform: scale(0);
+        opacity: 0;
+    }
+    100% {
+        transform: scale(1);
+        opacity: 1;
+    }
+}
+
+@keyframes zoomOut {
+    0% {
+        transform: scale(1);
+        opacity: 1;
+    }
+    100% {
+        transform: scale(0);
+        opacity: 0;
+    }
+}
+
 .chat__header {
     background-color: var(--primary);
     color: white;
@@ -39,6 +72,7 @@
     grid-template-columns: 48px 1fr;
     grid-template-rows: 1fr 1fr;
     padding: 8px;
+    background-color: #fff;
 }
 
 .chat__header p{
