@@ -1,0 +1,29 @@
+@import url('https://rsms.me/inter/inter.css');
+
+$primary : red;
+$secondary : #00ff00;
+
+
+@mixin button {
+    color: $secondary;
+}
+
+@function styleFont($type) {
+    @if $type == 1 {
+        @return strikeout
+    }
+    @return normal
+}
+
+html {
+    @include button();
+    font-family: 'Inter', sans-serif;
+}
+
+body {
+    overflow-x: hidden;
+    @include button();
+    font-style: styleFont(1);
+    overflow-y: auto;
+    color: $primary;
+}

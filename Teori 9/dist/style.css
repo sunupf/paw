@@ -1,0 +1,13 @@
+@import url("https://rsms.me/inter/inter.css");
+html {
+  color: #00ff00;
+  font-family: "Inter", sans-serif;
+}
+
+body {
+  overflow-x: hidden;
+  color: #00ff00;
+  font-style: strikeout;
+  overflow-y: auto;
+  color: red;
+}
